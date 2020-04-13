@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>test game</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<style type="text/css">
+		.que1{
+			display: none;
+			width: 600px;
+			margin-left: auto;
+			margin-right: auto;
+			background: white;
+			margin-top: 10px;
+		}
+		.que2{
+			display: none;
+			width: 600px;
+			margin-left: auto;
+			margin-right: auto;
+			background: white;
+			margin-top: 10px;
+		}
+		.que3{
+			display: none;
+			width: 600px;
+			margin-left: auto;
+			margin-right: auto;
+			background: white;
+			margin-top: 10px;
+		}
+		.que4{
+			display: none;
+			width: 600px;
+			margin-left: auto;
+			margin-right: auto;
+			background: white;
+			margin-top: 10px;
+		}
+		.que5{
+			display: none;
+			width: 600px;
+			margin-left: auto;
+			margin-right: auto;
+			background: white;
+			margin-top: 10px;
+		}
+		.que6{
+			display: none;
+			width: 600px;
+			margin-left: auto;
+			margin-right: auto;
+			background: white;
+			margin-top: 10px;
+		}
+		.que7{
+			display: none;
+			width: 600px;
+			margin-left: auto;
+			margin-right: auto;
+			background: white;
+			margin-top: 10px;
+		}
+		.que8{
+			display: none;
+			width: 600px;
+			margin-left: auto;
+			margin-right: auto;
+			background: white;
+			margin-top: 10px;
+		}
+		.que9{
+			display: none;
+			width: 600px;
+			margin-left: auto;
+			margin-right: auto;
+			background: white;
+			margin-top: 10px;
+		}
+		.que10{
+			display: none;
+			width: 600px;
+			margin-left: auto;
+			margin-right: auto;
+			background: white;
+			margin-top: 10px;
+		}
+		.que11{
+			display: none;
+			width: 600px;
+			margin-left: auto;
+			margin-right: auto;
+			background: white;
+			margin-top: 10px;
+		}
+		.que12{
+			display: none;
+			width: 600px;
+			margin-left: auto;
+			margin-right: auto;
+			background: white;
+			margin-top: 10px;
+		}
+		.que13{
+			display: none;
+			width: 600px;
+			margin-left: auto;
+			margin-right: auto;
+			background: white;
+			margin-top: 10px;
+		}
+		.que14{
+			display: none;
+			width: 600px;
+			margin-left: auto;
+			margin-right: auto;
+			background: white;
+			margin-top: 10px;
+		}
+		.que15{
+			display: none;
+			width: 600px;
+			margin-left: auto;
+			margin-right: auto;
+			background: white;
+			margin-top: 10px;
+		}
+		.fals{
+			margin-top: 0px; 
+			margin-bottom: 0px;
+			font-weight: bold;
+		}
+		.tru{
+			margin-top: 0px; 
+			margin-bottom: 0px;
+			font-weight: bold;
+		}
+		.fals:hover{
+			background: #6b8bed;
+		}
+		.tru:hover{
+			background: #6b8bed;
+		}
+		.start{
+			height: 600px;
+			width: 800px;
+			background: black;
+			margin-top: 10px;
+			display: block;
+		}
+		.fin{
+			height: 600px;
+			width: 800px;
+			background: black;
+			margin-top: 10px;
+			display: none;
+		}
+	</style>
+</head>
+<body>
+	<div class="start" style="margin-right: auto; margin-left: auto;">
+		<h1 style="text-align: center; color: white;">Пройди тест на знание мультиков!</h1>
+		<img src="1.jpg" class="col-12">
+		<button class="btn mx-auto text-white btn-lg btn-block bg-info starter col-3" style="margin-top: 80px;">Начать</button>
+	</div>
+
+	<div class="fin" style="margin-right: auto; margin-left: auto;">
+		<h1 style="text-align: center; color: white;">Вы прошли весь тест</h1>
+		<img src="1.jpg" class="col-12">
+		<button class="btn mx-auto text-white btn-lg btn-block bg-info resulter col-3" style="margin-top: 80px;">Узнать результат</button>
+		<h2 style="text-align: center; color: white; margin-top: 10px; display: none;" class="res">Ваш результат: <span class="scoreter"></span></h2>
+	</div>
+
+	<div class="que1">
+		<div class="d-flex mx-auto bg-dark">
+			<h3 class="mx-auto text-white">1/10 Угадай мультик по кадру</h3>
+		</div>
+		<img src="1.webp" style="width: 600px;" class="shadow mb-1">
+		<div class="fals btn btn-lg btn-block shadow">Анимашки</div>
+		<div class="tru btn btn-lg btn-block shadow">Пинки и Брейн</div>
+		<div class="fals btn btn-lg btn-block shadow">Луни Тюнз</div>
+	</div>
+
+	<div class="que2">
+		<div class="d-flex mx-auto bg-dark">
+			<h3 class="text-white" style="text-align: center;">2/10 Угадай мультфильм по детскому рисунку</h3>
+		</div>
+		<img src="2.webp" style="width: 600px;" class="shadow mb-1">
+		<div class="fals btn btn-lg btn-block shadow">Зверополис</div>
+		<div class="fals btn btn-lg btn-block shadow">Шрэк</div>
+		<div class="tru btn btn-lg btn-block shadow">Ральф</div>
+	</div>
+
+	<div class="que3">
+		<div class="d-flex mx-auto bg-dark">
+			<h3 class="text-white mx-auto" style="">3/10 Угадай мультфильм по песне</h3>
+		</div>
+		<div class="d-flex" style="background-image: url(1.jpg);">
+			<audio controls style="margin-left: 150px; margin-top: 50px; margin-bottom: 50px;"> 
+				<source src="FairlyOddParents.mp3" type="audio/mpeg"> 
+			</audio>
+		</div>
+		<div class="fals btn btn-lg btn-block shadow">Лаборотория Декстера</div>
+		<div class="fals btn btn-lg btn-block shadow">Котопёс</div>
+		<div class="tru btn btn-lg btn-block shadow">Волшебные покровители</div>
+	</div>
+
+	<div class="que4">
+		<div class="d-flex mx-auto bg-dark">
+			<h3 class="text-white mx-auto" style="">4/10 Угадай персонажа</h3>
+		</div>
+		<img src="3.webp" class="col-12">
+		<div class="tru btn btn-lg btn-block shadow">Римуру Темпест</div>
+		<div class="fals btn btn-lg btn-block shadow">Юно Гасай</div>
+		<div class="fals btn btn-lg btn-block shadow">Асуна</div>
+	</div>
+
+	<div class="que5">
+		<div class="d-flex mx-auto bg-dark">
+			<h3 class="text-white mx-auto" style="">5/10 Угадай мультик по кадру</h3>
+		</div>
+		<img src="2.jpg" class="col-12">
+		<div class="fals btn btn-lg btn-block shadow">Тюряга!</div>
+		<div class="tru btn btn-lg btn-block shadow">Мистер Пиклз</div>
+		<div class="fals btn btn-lg btn-block shadow">Обычный мультик</div>
+	</div>
+
+	<div class="que6">
+		<div class="d-flex mx-auto bg-dark">
+			<h3 class="text-white mx-auto" style="text-align: center;">6/10 В каком городе происходят действия мультика "Волшебные покровители"?</h3>
+		</div>
+		<img src="1.gif" class="col-12">
+		<div class="fals btn btn-lg btn-block shadow">Диммадом</div>
+		<div class="fals btn btn-lg btn-block shadow">Лонсдейл</div>
+		<div class="tru btn btn-lg btn-block shadow">Димсдейл</div>
+	</div>
+
+	<div class="que7">
+		<div class="d-flex mx-auto bg-dark">
+			<h3 class="text-white mx-auto" style="text-align: center;">7/10 Угадайте мультик по кадру</h3>
+		</div>
+		<img src="3.jpg" class="col-12">
+		<div class="fals btn btn-lg btn-block shadow">Скуби-ду</div>
+		<div class="fals btn btn-lg btn-block shadow">В поисках Немо</div>
+		<div class="tru btn btn-lg btn-block shadow">Аватар: Легенда об Аанге</div>
+	</div>
+
+	<div class="que8">
+		<div class="d-flex mx-auto bg-dark">
+			<h3 class="text-white mx-auto" style="text-align: center;">8/10 Угадайте мультфильм по песне</h3>
+		</div>
+		<div class="d-flex" style="background-image: url(1.jpg);">
+			<audio controls style="margin-left: 150px; margin-top: 50px; margin-bottom: 50px;"> 
+				<source src="1.mp3" type="audio/mpeg"> 
+			</audio>
+		</div>
+		<div class="tru btn btn-lg btn-block shadow">Финес и Ферб</div>
+		<div class="fals btn btn-lg btn-block shadow">Kid vs Cat</div>
+		<div class="fals btn btn-lg btn-block shadow">Черепашки ниндзя</div>
+	</div>
+
+	<div class="que9">
+		<div class="d-flex mx-auto bg-dark">
+			<h3 class="text-white mx-auto" style="">9/10 Угадай персонажа</h3>
+		</div>
+		<img src="1.png" class="col-12">
+		<div class="fals btn btn-lg btn-block shadow">Гаргантюа</div>
+		<div class="fals btn btn-lg btn-block shadow">Пантагрюэль</div>
+		<div class="tru btn btn-lg btn-block shadow">Гаргамель</div>
+	</div>
+
+	<div class="que10">
+		<div class="d-flex mx-auto bg-dark">
+			<h3 class="text-white mx-auto" style="text-align: center;">10/10 Как переводится имя дочери мистера Крабса?</h3>
+		</div>
+		<img src="4.webp" class="col-12">
+		<div class="fals btn btn-lg btn-block shadow">Деньги</div>
+		<div class="fals btn btn-lg btn-block shadow">Алмаз</div>
+		<div class="tru btn btn-lg btn-block shadow">Жемчуг</div>
+	</div>
+
+	<script type="text/javascript">
+		let starter = document.querySelector(".starter");
+		let fin = document.querySelector(".fin");
+		let que1 = document.querySelector(".que1");
+		let que2 = document.querySelector(".que2");
+		let que3 = document.querySelector(".que3");
+		let que4 = document.querySelector(".que4");
+		let que5 = document.querySelector(".que5");
+		let que6 = document.querySelector(".que6");
+		let que7 = document.querySelector(".que7");
+		let que8 = document.querySelector(".que8");
+		let que9 = document.querySelector(".que9");
+		let que10 = document.querySelector(".que10");
+		let start = document.querySelector(".start");
+		let fals = document.querySelectorAll(".fals");
+		let tru = document.querySelectorAll(".tru");
+		let score = document.querySelector(".scoreter");
+		let resulter = document.querySelector(".resulter");
+		let res = document.querySelector(".res");
+		let num = 0;
+		starter.onclick = function() {
+			start.style.display = "none";
+			que1.style.display = "block";
+		}
+		resulter.onclick = function() {
+			res.style.display = "block";
+			score.innerHTML = num; 
+			if (num <= 3) {
+				alert("ты не смотрел мультики в детстве?")
+			}
+			if (num <= 6) {
+				alert("в следующий раз постарайся лучше")
+			}
+			if (num >= 7) {
+				alert("молодец, отличный результат")
+			}
+		}
+		//1
+		tru[0].onclick = function() {
+			tru[0].style.background = "green";
+			que1.style.display = "none";
+			que2.style.display = "block";
+			num++
+		}
+		fals[0].onclick = function() {
+			fals[0].style.background = "red";
+			num = num - 1;
+		}
+		fals[1].onclick = function() {
+			fals[1].style.background = "red";
+			num = num - 1;
+		}
+		//2
+		tru[1].onclick = function() {
+			tru[1].style.background = "green";
+			que2.style.display = "none";
+			que3.style.display = "block";
+			num++
+		}
+		fals[2].onclick = function() {
+			fals[2].style.background = "red";
+			num = num - 1;
+		}
+		fals[3].onclick = function() {
+			fals[3].style.background = "red";
+			num = num - 1;
+		}
+		//3
+		tru[2].onclick = function() {
+			tru[2].style.background = "green";
+			que3.style.display = "none";
+			que4.style.display = "block";
+			num++
+		}
+		fals[4].onclick = function() {
+			fals[4].style.background = "red";
+			num = num - 1;
+		}
+		fals[5].onclick = function() {
+			fals[5].style.background = "red";
+			num = num - 1;
+		}
+		//4
+		tru[3].onclick = function() {
+			tru[3].style.background = "green";
+			que4.style.display = "none";
+			que5.style.display = "block";
+			num++
+		}
+		fals[6].onclick = function() {
+			fals[6].style.background = "red";
+			num = num - 1;
+		}
+		fals[7].onclick = function() {
+			fals[7].style.background = "red";
+			num = num - 1;
+		}
+		//5
+		tru[4].onclick = function() {
+			tru[4].style.background = "green";
+			que5.style.display = "none";
+			que6.style.display = "block";
+			num++
+		}
+		fals[8].onclick = function() {
+			fals[8].style.background = "red";
+			num = num - 1;
+		}
+		fals[9].onclick = function() {
+			fals[9].style.background = "red";
+			num = num - 1;
+		}
+		//6
+		tru[5].onclick = function() {
+			tru[5].style.background = "green";
+			que6.style.display = "none";
+			que7.style.display = "block";
+			num++
+		}
+		fals[10].onclick = function() {
+			fals[10].style.background = "red";
+			num = num - 1;
+		}
+		fals[11].onclick = function() {
+			fals[11].style.background = "red";
+			num = num - 1;
+		}
+		//7
+		tru[6].onclick = function() {
+			tru[6].style.background = "green";
+			que7.style.display = "none";
+			que8.style.display = "block";
+			num++
+		}
+		fals[12].onclick = function() {
+			fals[12].style.background = "red";
+			num = num - 1;
+		}
+		fals[13].onclick = function() {
+			fals[13].style.background = "red";
+			num = num - 1;
+		}
+		//8
+		tru[7].onclick = function() {
+			tru[7].style.background = "green";
+			que8.style.display = "none";
+			que9.style.display = "block";
+			num++
+		}
+		fals[14].onclick = function() {
+			fals[14].style.background = "red";
+			num = num - 1;
+		}
+		fals[15].onclick = function() {
+			fals[15].style.background = "red";
+			num = num - 1;
+		}
+		//9
+		tru[8].onclick = function() {
+			tru[8].style.background = "green";
+			que9.style.display = "none";
+			que10.style.display = "block";
+			num++
+		}
+		fals[16].onclick = function() {
+			fals[16].style.background = "red";
+			num = num - 1;
+		}
+		fals[17].onclick = function() {
+			fals[17].style.background = "red";
+			num = num - 1;
+		}
+		//10
+		tru[9].onclick = function() {
+			tru[9].style.background = "green";
+			que10.style.display = "none";
+			fin.style.display = "block";
+			num++
+		}
+		fals[18].onclick = function() {
+			fals[18].style.background = "red";
+			num = num - 1;
+		}
+		fals[19].onclick = function() {
+			fals[19].style.background = "red";
+			num = num - 1;
+		}
+	</script>
+</body>
+</html>
